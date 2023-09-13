@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Level-1_3-change-color</title>
+</head>
+<body>
+    <div class="wrap">
+        <section class="center-box">
+            <form >
+                <label class="m-t-10" for="red">Red </label>
+                <input type="range" id="red" min="0" max="255" step="1" 
+                onchange="changecolor(this.value)">
+                <label class="m-t-10" for="green">Green</label>
+                <input type="range" id="green" min="0" max="255" step="1" onchange="changecolor(this.value)">
+                <label class="m-t-10" for="blue">Blue</label>
+                <input type="range" id="blue" min="0" max="255" step="1" onchange="changecolor(this.value)">
+            </form>
+        </section>
+    </div>
+    
+    
+    
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
